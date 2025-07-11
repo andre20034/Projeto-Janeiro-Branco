@@ -17,7 +17,7 @@ A campanha "Janeiro Branco" é um movimento dedicado à conscientização sobre 
 O projeto conta com as seguintes funcionalidades:
 
 * **Página Informativa:** Uma página inicial que apresenta a campanha, explica a importância da Lei Maria da Penha e destaca os canais oficiais de denúncia.
-* **Diario anônimo de progresso:** Publique anônimamente seu progresso na luta contra a parte negativa da vida 
+* **Diario anônimo de progresso:** Compartilhe anonimamente seu progresso na luta contra os aspectos negativos da vida e incentive outras pessoas.
 * **Formulário de Envio:** Um formulário simples e seguro para que qualquer pessoa possa ver sem saber quem é vc.
 
 ## 💻 Tecnologias Utilizadas
