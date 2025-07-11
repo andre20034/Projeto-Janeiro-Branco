@@ -116,4 +116,7 @@ agosto-lilas/
 ```
 
 ---
-Uma pequena tarefa com um grande objetivo para apoiar uma causa importante.
+Um pequeno Projeto de um aluno do IFB de TDS com um grande objetivo para apoiar uma causa importante.
+GitHub: http://github.com/andre20034
+Contato E-mail: andre67192@estudante.ifb.edu.br
+
