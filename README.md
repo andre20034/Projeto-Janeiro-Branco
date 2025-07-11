@@ -3,8 +3,6 @@ Markdown
 
 # Projeto Janeiro Branco
 
-![](https://www.gov.br/cetene/pt-br/assuntos/noticias/campanha-janeiro-branco-1/PapeldeParede.png)
-
 
 Este projeto é uma aplicação web completa desenvolvida em apoio à campanha **Janeiro Branco**, Um mês para refletir, cuidar da mente e promover o bem-estar emocional, construindo uma sociedade mais saudável e feliz. A plataforma busca ser um canal de informação e, ao mesmo tempo, um espaço seguro e acolhedor para que pessoas possam deixar mensagens de apoio e solidariedade de forma anônima.
 
