@@ -53,7 +53,7 @@ Antes de começar, certifique-se de que você tem os seguintes softwares instala
 1.  **Clone o repositório:**
     Abra seu terminal e execute o seguinte comando para criar uma cópia local do projeto.
     ```bash
-    git clone [https://github.com/SEU-USUARIO/projeto-Janeiro-Branco.git](https://github.com/SEU-USUARIO/projeto-agosto-lilas.git)
+    git clone [https://github.com/SEU-USUARIO/projeto-Janeiro-Branco.git](https://github.com/SEU-USUARIO/projeto-Janeiro-Branco.git)
     ```
     *Substitua `SEU-USUARIO` pelo seu nome de usuário do GitHub.*
 
