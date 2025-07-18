@@ -114,7 +114,41 @@ agosto-lilas/
 |-- requirements.txt   # Dependências do Python
 `-- README.md          # Este arquivo de documentação
 ```
+```
++------------------+                   +------------------+
+|                  |                   |                  |
+|       VIEW       |<------------------|     CONTROLLER   |
+| (Templates HTML,  |  3. Renderiza     | (app.py: Rotas,  |
+|  CSS, JS)        |     View          |  Lógica de Fluxo) |
+|                  |                   |                  |
++------------------+                   +--------^---------+
+         ^                                      |
+         |                                      | 1. Requisição do Usuário
+         |                                      | (e.g., Clicar em botão,
+         |                                      | Enviar formulário)
+         |                                      |
+         |                                      | 2. Interage com
+         |                                      |
++------------------+                   +--------+---------+
+|                  |                   |                  |
+|   Usuário/Cliente|<----------------->|      MODEL       |
+| (Navegador Web)  |                   | (models.py: Dados,|
+|                  |                   |  Lógica de Negócios) |
++------------------+                   |                  |
+                                       +------------------+
+                                                ^
+                                                |
+                                                | 4. Persistência
+                                                |    (Leitura/Escrita)
+                                                |
+                                       +------------------+
+                                       |                  |
+                                       |   BANCO DE DADOS |
+                                       |    (mensagens.db)  |
+                                       |                  |
+                                       +------------------+
 
+```
 ---
 Um pequeno Projeto com um grande objetivo para apoiar uma causa importante.
 
