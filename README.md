@@ -150,6 +150,37 @@ agosto-lilas/
 
 ```
 ---
+## 💻 Banco de dados
+
+1) Mensagens de apoio: Que já existem.
+
+2) Usuários: Pessoas que se cadastram e podem, por exemplo, postar suas próprias mensagens e ter um perfil.
+
+Para isso, precisaríamos de duas tabelas principais: uma para Usuários e outra para Mensagens.
+```
++---------------------+       +---------------------------+
+|      usuarios       |       |        mensagens          |
++---------------------+       +---------------------------+
+| id (PK)             |<----->| id (PK)                   |
+| nome_usuario (UNIQUE)|       | texto                     |
+| email (UNIQUE)      |       | data_criacao              |
+| senha (HASHED)      |       | autor_id (FK -> usuarios) |
+| data_cadastro       |       +---------------------------+
+| ultimo_login        |
++---------------------+
+```
+Com essa estrutura, você pode:
+
+1 - Registrar novos usuários.
+
+2 - Permitir que usuários façam login.
+
+3- Associar cada mensagem postada a um usuário específico.
+
+4 -Consultar todas as mensagens de um usuário, ou todas as mensagens e saber quem as postou.
+
+---
+
 Um pequeno Projeto com um grande objetivo para apoiar uma causa importante.
 
 GitHub: http://github.com/andre20034
