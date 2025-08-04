@@ -29,8 +29,7 @@ A aplicação foi construída utilizando um conjunto de tecnologias modernas, se
 
 * **Back-end (Lógica do Servidor):**
     * `Python 3`: Linguagem principal para toda a lógica da aplicação.
-    * `Flask`: Um micro-framework leve e poderoso para criar o servidor web, gerenciar as rotas e a API.
-    * `Django`:...
+    * `Django`: faz tudo
 
 * **Banco de Dados:**
     * `SQLite 3`: Um banco de dados relacional baseado em arquivo, ideal para projetos de pequeno e médio porte pela sua simplicidade e por não necessitar de um servidor dedicado.
